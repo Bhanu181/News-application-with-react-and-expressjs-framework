@@ -1,0 +1,17 @@
+news-app/
+├── client/                 # React frontend
+│   ├── public/
+│   ├── src/
+│       ├── components/     # Reusable React components
+│       ├── pages/          # Different page components
+│       ├── services/       # API logic
+│       ├── App.js          # Main component
+│       ├── index.js        # React entry point
+├── server/                 # Express backend
+│   ├── routes/             # API routes
+│       ├── newsRoutes.js   # Routes for news APIs
+│   ├── controllers/        # Controllers for business logic
+│       ├── newsController.js # Fetch news logic
+│   ├── app.js              # Express setup
+│   ├── config.js           # Configuration for environment variables
+├── package.json            # Project dependencies
